@@ -31,6 +31,8 @@ It's now a "login code" and not an email validation code, etc.
 
 ## Lambda
 
+Make sure you have the requested Node version, and `npm install`
+
 ### Some initial smoke test:
 
 Edit `test/lambda.test.js` with your email in TEST_EMAIL constant. 
@@ -57,3 +59,11 @@ But modified to allow my passwordless login, it doesn't take the password from t
 
 Check it out!
 
+```
+npm install
+npm start
+```
+
+And then browse to `http://localhost:3000` if it doesn't pop up automatically... 
+
+Enjoy!

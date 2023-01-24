@@ -1,7 +1,7 @@
 const lambda = require('../index.js');
 
-const TEST_EMAIL = 'doronlevari@gmail.com';
-const CONFIRMATION_CODE = '570386';
+const TEST_EMAIL = 'user@email.com';
+const CONFIRMATION_CODE = '11111';
 
 describe("test Lambda", () => {
     it("should SEND", async () => {
